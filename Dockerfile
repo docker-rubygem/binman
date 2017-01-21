@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=0.1.2
+ENV VERSION=2.0.0
 
 RUN gem install binman --version ${VERSION} --no-format-exec
 
